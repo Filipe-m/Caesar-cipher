@@ -1,0 +1,55 @@
+html{
+  background-image: linear-gradient(to right, black, white);
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+.number{
+  width: 50px;
+}
+
+#numbers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 6px;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  
+}
+
+#incription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  width: 40%;
+  align-items: center;
+}
+
+#translation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  width: 40%;
+  align-items: center;
+}
+
+.text{
+  height: 200px;
+  width: 100%;
+  text-align:justify;
+}
+
+.text:placeholder-shown{
+  font-size: 50px;
+}
+
+.button{
+  width: 50%;
+}
