@@ -38,15 +38,13 @@
 
     </div>
     <div id="incription">
-      <textarea name="normalToIncripted" class="text" cols="30" rows="10" placeholder="Normal text" id="normalToIncripted"></textarea>
-      <button class="button" id="incript" onclick="incription()">Incript</button>
+      <textarea name="normalToIncripted" class="text" cols="30" rows="10" placeholder="Normal text" id="normalToIncripted" oninput="incription()"></textarea>
       <textarea name="incriptedText" class="text" cols="30" rows="10" id="incriptedText" ></textarea>
 
 
     </div>
     <div id="translation">
-      <textarea name="incriptedToNormal" class="text" cols="30" rows="10" placeholder="Incripted text" id="incriptedToNormal"></textarea>
-      <button class="button" id="translate" onclick="translation()" >Translate</button>
+      <textarea name="incriptedToNormal" class="text" cols="30" rows="10" placeholder="Incripted text" id="incriptedToNormal" oninput="translation()"></textarea>
       <textarea name="normalText" class="text" cols="30" rows="10" id="normalText"></textarea>
     </div>
 

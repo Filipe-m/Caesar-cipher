@@ -41,15 +41,12 @@ main{
 }
 
 .text{
-  height: 200px;
+  background-color:whitesmoke;
+  height: 250px;
   width: 100%;
   text-align:justify;
 }
 
 .text:placeholder-shown{
-  font-size: 50px;
-}
-
-.button{
-  width: 50%;
+  font-size: 300%;
 }
